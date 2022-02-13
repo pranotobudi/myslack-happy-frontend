@@ -48,4 +48,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: pranotobudi/myslack-monolith-frontend:latest
+          tags: pranotobudi/myslack-happy-frontend:latest
