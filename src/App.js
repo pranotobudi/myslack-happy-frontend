@@ -32,7 +32,7 @@ function App() {
     }
     user && fetchRootDomain();
   }, [user]); 
-  // second parameter is dependency: effect will activate if the value in the list change
+  // second parameter is dependency: effect will be activated if the value in the list change
 
   React.useEffect(function effectFunction() {
       async function fetchUser(){
@@ -65,7 +65,7 @@ function App() {
       }
       user && fetchUser();
   }, [user, dispatch]); 
-  // second parameter is dependency: effect will activate if the value in the list change
+  // second parameter is dependency: effect will be activated if the value in the list change
 
   var conn
   function dial() {

@@ -1,5 +1,6 @@
 import React from 'react'
 import SidebarOption from './SidebarOption.js';
+import SidebarOptionEmail from './SidebarOptionEmail.js';
 import styled from 'styled-components';
 import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord';
 import CreateIcon from '@mui/icons-material/Create';
@@ -57,6 +58,7 @@ export default function Sidebar({websocket, userMongo}) {
             <SidebarOption Icon={FileCopyIcon} title="File Browser" />
             <SidebarOption Icon={ExpandLessIcon} title="Show Less" />
             <hr /> */}
+            <SidebarOptionEmail Icon={InboxIcon} title="Mail This Chat" />
             <SidebarOption Icon={ExpandMoreIcon} title="Channels" />
             <hr />
             <SidebarOption Icon={AddIcon} addChannelOption title="Add Channel"  />
